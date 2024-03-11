@@ -3,6 +3,12 @@
   
 }
 
+.container {
+  display: flex;
+  /* position: relative; */
+  min-height: 515px;
+}
+
 
 .line {
 margin: 0 auto;

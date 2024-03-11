@@ -7,7 +7,7 @@
 #table-container {
    position: relative;
    display: flex;
-   justify-content: center;
+   /* justify-content: center; */
    margin: 15px;
    border-collapse: collapse;
 }
@@ -19,7 +19,7 @@
 
 #table-container th,
 #table-container td {
-   padding: 5px;
+   /* padding: 5px; */
    border: 1px solid #ddd;
 }
 #table-container th {
@@ -36,7 +36,7 @@
 #table-container td,
 #table-container th {
    border: 1px solid #ddd;
-   padding: 8px;
+   /* padding: 8px */
 }
 #table-container th {
    padding-top: 12px;
