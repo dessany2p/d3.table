@@ -8,6 +8,22 @@
    width: 120px
 }
 
+#graph-container {
+   margin: 0 20px
+}
+
+.tooltip {
+   background-color: rgba(255, 255, 255, 0.462);
+   border: 1px solid #ddd;
+   padding: 5px;
+   position: absolute;
+   text-align: center;
+   width: 120px;
+   pointer-events: none;
+   opacity: 0.6;
+   transition: opacity 0.3s;
+}
+
 
 #table-container-2::-webkit-scrollbar {
    width: 7px;
@@ -35,7 +51,7 @@
 #table-container-2 {
    display: flex;
    justify-content: center;
-   margin: 15px;
+   /* margin: 15px; */
    border-collapse: collapse;
    overflow-y: auto;
    max-height: 400px;
