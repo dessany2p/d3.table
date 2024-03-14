@@ -8,6 +8,20 @@
    width: 120px
 }
 
+.picker__container {
+   margin-left: 40px;
+}
+#tooltip {
+   position: absolute;
+      display: none;
+      padding: 10px;
+      background: #f9f9f9;
+      border: 1px solid #d1d1d1;
+      border-radius: 3px;
+      pointer-events: none;
+      z-index: 1000;
+      font-size: 22px;
+}
 #graph-container {
    margin: 0 20px
 }
